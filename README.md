@@ -95,14 +95,7 @@ This is a Laravel-based blog post generato that integrates the OpenAI GPT-3.5 Tu
 
 ### How did the AI output change when you modified the tone or role in your prompt?
 
-When experimenting with different prompts and tones, the AI output demonstrated significant adaptability:
-
-- **Professional tone**: Generated formal, structured blog posts with clear headings and business-appropriate language
-- **Casual/conversational tone**: Produced more relaxed content with contractions, personal anecdotes, and informal expressions
-- **Technical role**: When prompted as a "tech expert," the AI included more technical jargon, code examples, and detailed explanations
-- **Creative role**: When prompted as a "creative writer," the output featured more descriptive language, metaphors, and engaging storytelling elements
-
-The AI effectively adjusted vocabulary, sentence structure, and content depth based on the specified tone and role, demonstrating the importance of prompt engineering for desired outcomes.
+When I tested my application with different prompts, the AI integration did not produce any output. This could be due to several issues such as API key configuration problems, network connectivity issues, or errors in the API request handling. To properly answer this question, I would need to troubleshoot the application first to ensure the OpenAI API integration is working correctly, then test with various prompt styles to observe how the AI adapts its tone and content based on different instructions. Please see screenshots above for example output.
 
 ### What would you improve about the API integration for a production app?
 
