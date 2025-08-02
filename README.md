@@ -61,23 +61,30 @@ This is a Laravel-based blog post generato that integrates the OpenAI GPT-3.5 Tu
 
 3. **Run the app**
    
-   Make sure Apache is running in XAMPP.
+   Make sure Apache is running in XAMPP, or use Laravel's built-in server:
+   ```bash
+   php artisan serve
+   ```
+   
    Then visit either:
    ```
-   http://localhost:8080/ai-generate
+   http://localhost:8000/ai-form        # Using Laravel's artisan serve
+   http://localhost:8000/ai-generate    # Alternative route (same form)
    ```
-   Or:
+   
+   Or with XAMPP:
    ```
    http://localhost/blog-ai/public/ai-form
+   http://localhost/blog-ai/public/ai-generate
    ```
 ---
 
 ## 🧪 How to Use
 
-1. Navigate to `/ai-generate` or `/ai-form`
+1. Navigate to `/ai-form` or `/ai-generate` (both show the same form)
 2. Enter a blog title or idea in the prompt field
-3. Click "Generate"
-4. The AI-generated draft will appear below the form
+3. Click "Generate Blog Post"
+4. The AI-generated draft will appear below the form (currently in demo mode)
 
 ---
 

@@ -8,4 +8,5 @@ Route::get('/', function () {
 });
 
 Route::get('/ai-form', [AIController::class, 'showForm'])->name('ai.form');
+Route::get('/ai-generate', [AIController::class, 'showForm'])->name('ai.generate.form');
 Route::post('/ai-generate', [AIController::class, 'generate'])->name('ai.generate');
